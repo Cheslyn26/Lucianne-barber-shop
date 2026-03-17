@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.clip-path-ribbon-left {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 30% 50%, 0 0);
+}
+
+.clip-path-ribbon-right {
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 70% 50%, 100% 0);
+}
